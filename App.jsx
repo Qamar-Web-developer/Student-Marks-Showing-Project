@@ -16,8 +16,8 @@ export default function App() {
       <Header/> 
       <main>
         <div className="search-filter-container">
-            <Searchbar setQuery={setQuery} />
-            <Filter/>
+            <Searchbar  />
+            <Filter setQuery={setQuery}/>
         </div>
         <CardContainer query={query} />
       </main>
