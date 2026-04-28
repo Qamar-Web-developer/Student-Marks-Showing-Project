@@ -98,8 +98,8 @@ a {
     margin-inline: auto;
     margin-top: 16px;
     margin-bottom: 48px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: flex-end; */
     gap: 24px;
 }
 
@@ -129,7 +129,7 @@ a {
 }
 
 .filter-by-region {
-    width: 250px;
+    width: 150px;
     padding: 16px;
     border: none;
     outline: none;
