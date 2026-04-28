@@ -7,6 +7,7 @@ import Card from './Card'
 
 
 export default function CardContainer({ query }) {
+    console.log(query)
     const urls = [];
 for (let i = 1; i <= 103; i++) {
     let rollNo = String(i).padStart(3, '0');
