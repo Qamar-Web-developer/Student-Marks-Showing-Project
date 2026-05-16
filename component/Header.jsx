@@ -13,7 +13,7 @@ else{
  
        <header className="header-container">
       <div className="header-content">
-        <h2 className="title"><a href="/">MUST</a></h2>
+        <h2 className="title"><a href="/">MUSTIAN</a></h2>
         <p className="theme-changer" 
         onClick={()=>{
           setDark(!isDark)
