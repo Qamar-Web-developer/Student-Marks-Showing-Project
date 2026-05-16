@@ -19,7 +19,7 @@ export default function App() {
       <Header/> 
       <main>
         <div className="search-filter-container">
-            <Searchbar  />
+          
             <Filter1 setQuery1={setQuery1}/>
             <Filter2 setQuery2={setQuery2}/>
         </div>
