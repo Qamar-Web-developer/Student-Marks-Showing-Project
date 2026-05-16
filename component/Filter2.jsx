@@ -4,7 +4,7 @@ export default function Filter({ setQuery2 }) {
   return (
     <>
       <select className="filter-by-region" onChange={(e) => setQuery2(e.target.value)}>
-        <option hidden>Filter by Region</option>
+        <option hidden>Input Deparment</option>
         <option value="A09">A09</option>
         <option value="A10">A10</option>
         <option value="A16">A16</option>
