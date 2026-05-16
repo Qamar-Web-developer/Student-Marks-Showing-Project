@@ -16,7 +16,7 @@ for (let i = 1; i <= query3; i++) {
    
     const arry = urls.map((data, i) => {
 
-        return <Card name={data} key={i} rollNo={i + 1} />
+        return <Card name={data} key={i} rollNo={i + 1} query1={query1} query2={query2} />
 
     })
     if(!arry.length){
