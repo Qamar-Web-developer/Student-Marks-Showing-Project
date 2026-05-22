@@ -20,7 +20,7 @@ export default function Footer() {
         </p>
 
         <p className="footer-copy">
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} ganisha. All rights reserved.
         </p>
       </div>
     </footer>
